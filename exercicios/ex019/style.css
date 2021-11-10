@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body{
+    background-color: #C7A9FA;
+    font-family: 'Oswald', sans-serif
+}
+
+h1{
+    background-color: #D1369B(79, 156, 131);
+}
+
+h1#main{
+    text-align: center;
+    background-color: #947FBA;
+    
+}
+h2{
+    
+    background-color: #AB2C7F(60, 133, 92);
+}
+
+.basico{
+    color: green;
+}
+.intermediario{
+    color: yellow
+
+}
+
+.avancado{
+    color: red;
+}
