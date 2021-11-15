@@ -1,0 +1,106 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "Idroid";
+    src: url(fontes/idroid.otf) format('opentype');
+}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Oswald:wght@200;400&family=Roboto+Condensed:wght@700&family=Roboto:wght@100;400&display=swap');
+body{
+    background-color: #84E1AD;
+    margin: 0px;
+    padding: 0px;
+      
+}
+header{
+    background-image: linear-gradient(180deg, #84E1AD, #195A36);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    box-shadow: 1px 7px 7px rgba(0, 0, 0, 0.404);
+    
+}
+nav{
+    text-align: left;   
+}
+
+nav > a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    margin: 10px;
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+
+main{
+    margin: 1px 100px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    
+}
+.titulo{
+    font-family: 'Idroid';
+    color: #1e6d42;
+    background-image: linear-gradient(to right, #92f5bd , white);
+}
+#main{
+    font-family: 'Idroid';
+    color: #1e6d42;   
+}
+
+#video{
+    background-color: #195A36;
+    text-align: center;
+    padding: 15px;
+    margin: 0px;
+    
+}
+.image{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+#extra{
+    background-color: #b7dbc7;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px;
+}
+#aprendermais{
+    color: white;
+    background-color: #195A36 ;
+    margin: -13px;
+    padding: 5px;
+
+}
+
+footer{
+    text-align: center;
+    background-color:#195A36 ;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#final{
+    text-align: center;
+    
+}
+.destaque{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #195A36 ;
+    font-weight: bolder;
+}
+
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #195A36 ;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+main > a:hoover{
+    text-decoration: underline;
+}
