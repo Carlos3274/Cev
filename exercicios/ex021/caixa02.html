@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Oswald:wght@200&family=Roboto:wght@100;400&display=swap');
+        body{
+            font-family: 'Roboto', sans-serif;
+            background-color: #9fd896;
+            margin: 0px; 
+        }
+        header{
+            background-color: #B9FBAF;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: #8ABA82;
+            padding: 3px;
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin: 10px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: #B9FBAF;
+            padding: 10px;
+            margin: 10px;
+        }
+        footer{
+            background-color: #B9FBAF;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+        }
+        aside{
+            background-color: rgb(109, 148, 102);
+        }
+        .nome{
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pybank website</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id = "apresentacao">
+            <article>
+                <h2>O que é o PyBank?</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo saepe rem hic? Illo cupiditate atque veniam fugit molestiae optio id reprehenderit expedita doloremque non totam eum aliquam officia, tenetur voluptatum?</p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non expedita impedit sunt voluptas aspernatur, quos neque. Reprehenderit, cum! Quisquam quos minima cumque eaque, velit corrupti a molestiae ducimus amet et!
+                <aside>
+                    <p>Artigo escrito por <span class= "nome">José Carlos Araújo Pontes</span></p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por <span class = "nome">José Carlos Araújo Pontes</span></p>
+    </footer>
+</body>
+</html>
